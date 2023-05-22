@@ -1,0 +1,29 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "end-to-end testing with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --headless --browser chrome --spec",
+    "test": "npx cypress run --browser chrome --spec",
+    "cy:run-dashboard": "cypress run --browser chrome --record --key d79dadf2-e02d-49ce-a37e-3f8c791b24a2"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "i": "^0.3.7",
+    "prettier": "^1.19.1",
+    "soft-assert": "^0.2.6",
+    "xpath": "^0.0.32"
+  },
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

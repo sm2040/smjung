@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "../node_modules",
+    "types": ["cypress"]
+  },
+  "include": ["**/*.*", "cypress/integration/자동화 테스트/cypressJS_grammar"]
+}
